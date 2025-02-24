@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100cd745-b5a6-47e9-9c9f-b0a9d6c20ca7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/MazeImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/mazeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/mazeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc311_assignment03/maze-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/maze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/maze2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/robot.png" afterDir="false" />
+    <list default="true" id="100cd745-b5a6-47e9-9c9f-b0a9d6c20ca7" name="Changes" comment="int commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/MazeImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/MazeImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/mazeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/MazeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/mazeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc311_assignment03/MazeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/csc311_assignment03/maze-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc311_assignment03/maze-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/maze.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc311_assignment03/images/maze.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/maze2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc311_assignment03/images/maze2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/robot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc311_assignment03/images/robot.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mand33"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mand33/CSc311_project03",
+    "accountId": "61ed11df-8f10-414b-bb0e-807bfa20ba11"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -58,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MazeApplication.executor": "Run",
     "Application.mazeApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -75,6 +79,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\manet\IdeaProjects\CSC311_Assignment03\src\main\resources\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manet\IdeaProjects\CSC311_Assignment03\src\main\resources\com\example\csc311_assignment03" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -96,11 +103,24 @@
       <workItem from="1740210020507" duration="147000" />
       <workItem from="1740337077006" duration="3149000" />
       <workItem from="1740415774902" duration="1084000" />
-      <workItem from="1740436789765" duration="892000" />
+      <workItem from="1740436789765" duration="1881000" />
     </task>
+    <task id="LOCAL-00001" summary="int commit">
+      <option name="closed" value="true" />
+      <created>1740438041332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740438041332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="int commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="int commit" />
   </component>
 </project>

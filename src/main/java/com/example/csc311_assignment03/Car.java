@@ -18,7 +18,7 @@ public class Car {
     public Car(double startX, double startY, String startDirection) {
         shape = new Group();
 
-        // Car body
+
         body = new Polygon();
         body.getPoints().addAll(
                 0.0, 0.0,
@@ -30,14 +30,14 @@ public class Car {
         );
         body.setFill(Color.PURPLE);
 
-        // Windows
+
         window1 = new Rectangle(width * 0.2, height * 0.2, width * 0.15, height * 0.3);
         window1.setFill(Color.LIGHTGREEN);
 
         window2 = new Rectangle(width * 0.5, height * 0.2, width * 0.2, height * 0.3);
         window2.setFill(Color.LIGHTGREEN);
 
-        // Wheels
+
         wheel1 = new Circle(width * 0.25, height * 1.1, height * 0.3);
         wheel1.setFill(Color.BLACK);
 
@@ -57,10 +57,9 @@ public class Car {
     }
 
     public void setDirection(String direction) {
-        // Reset rotation
         shape.setRotate(0);
 
-        // Set rotation based on direction
+
         switch (direction) {
             case "up":
                 shape.setRotate(-90);
@@ -72,7 +71,6 @@ public class Car {
                 shape.setRotate(180);
                 break;
             case "right":
-                // Default orientation
                 break;
         }
     }

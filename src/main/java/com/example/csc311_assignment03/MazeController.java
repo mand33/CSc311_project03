@@ -12,7 +12,7 @@ import javafx.animation.AnimationTimer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class mazeController {
+public class MazeController {
 
     @FXML private TabPane tabPane;
     @FXML private Tab maze1Tab;
@@ -37,21 +37,21 @@ public class mazeController {
     @FXML
     public void initialize() {
         // Load maze images
-        maze1 = new MazeImage("maze.png");
-        maze2 = new MazeImage("maze2.png");
+        maze1 = new MazeImage("/com/example/csc311_assignment03/images/maze.png");
+        maze2 = new MazeImage("/com/example/csc311_assignment03/images/maze2.png");
 
         maze1ImageView.setImage(maze1.getImage());
         maze2ImageView.setImage(maze2.getImage());
 
         // Initialize robot in maze1
-        robot = new Robot("robot.png", 10, 10);
+        robot = new Robot("/com/example/csc311_assignment03/images/robot.png", 10, 10);
         maze1Pane.getChildren().add(robot.getImageView());
 
         // Initialize car in maze2
         car = new Car(10, 10, "right");
         maze2Pane.getChildren().add(car.getShape());
 
-        // Setup key listeners for manual navigation
+        // Setup key listeners
         setupKeyListeners();
 
         // Setup animation button
@@ -60,7 +60,7 @@ public class mazeController {
         // Setup reset button
         resetButton.setOnAction(e -> resetPositions());
 
-        // Pre-compute paths for animation
+
         computePaths();
     }
 
@@ -215,22 +215,20 @@ public class mazeController {
         }
     }
 
-    // Simple path-finding algorithm (this would be replaced with actual path finding)
     private void computePaths() {
-        // These would typically come from a path-finding algorithm
-        // Hardcoded for simplicity
+
         maze1Path = new ArrayList<>();
         maze1Path.add(new PathCoordinate(10, 10, "right"));
         maze1Path.add(new PathCoordinate(20, 10, "right"));
-        // Add more coordinates to complete the path through the maze
+
 
         maze2Path = new ArrayList<>();
         maze2Path.add(new PathCoordinate(10, 10, "right"));
         maze2Path.add(new PathCoordinate(20, 10, "right"));
-        // Add more coordinates to complete the path through the maze
+
     }
 
-    // Inner class to represent path coordinates
+
     private static class PathCoordinate {
         double x, y;
         String direction;

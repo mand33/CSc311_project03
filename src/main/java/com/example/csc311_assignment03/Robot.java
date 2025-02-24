@@ -25,8 +25,7 @@ public class Robot {
     }
 
     public void setDirection(String direction) {
-        // Change robot appearance based on direction
-        // This could involve rotating the image or switching to different images
+
         switch (direction) {
             case "left":
                 imageView.setScaleX(-1); // Flip horizontally
